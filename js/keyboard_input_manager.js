@@ -72,6 +72,10 @@ KeyboardInputManager.prototype.listen = function () {
   this.bindButtonPress(".retry-button", this.restart);
   this.bindButtonPress(".restart-button", this.restart);
   this.bindButtonPress(".keep-playing-button", this.keepPlaying);
+  this.bindButtonPress(".ai2k-ab-button", function(){fnPlayLoop(mvAlphaBeta);});
+  this.bindButtonPress(".ai2k-mm-button", function(){fnPlayLoop(mvMiniMax);});
+  this.bindButtonPress(".ai2k-tv-button", function(){fnPlayLoop(mvTrivial);});
+
 
   // Respond to swipe events
   var touchStartClientX, touchStartClientY;
