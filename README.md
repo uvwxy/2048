@@ -1,5 +1,5 @@
 # AI2K
-An AI that plays 2048 on it's own.
+An AI that plays 2048 on it's own. Click on `Run AlphaBeta KI` [here](http://uvwxy.github.io/2048/).
 
 At the moment this is an undocumented approach to automatically play 2048. It uses alpha beta pruning with a scoring heuristic that tries to play into the lower right corner. 
 
